@@ -1,0 +1,3 @@
+lytrogl			/usr/bin/
+lightfield.v.glsl	/usr/share/lytrogl/
+lightfield.f.glsl	/usr/share/lytrogl/

@@ -55,7 +55,7 @@ GLuint compile(const char* filename, GLenum type)
     free((void*)source);
     glCompileShader(id);
     glGetShaderiv(id, GL_COMPILE_STATUS, &compile_ok);
-    if (!compile_ok) {
+    if (compile_ok != GL_TRUE) {
         GLint log_length;
         glGetShaderiv(id, GL_INFO_LOG_LENGTH, &log_length);
         char* log = (char*)malloc(log_length);

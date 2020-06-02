@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+SHELL=/bin/bash
+
+#override_dh_auto_configure:
+#	: nothing
+#
+#override_dh_auto_build:
+#	: nothing
+#
+#override_dh_install:
+#	make
+#	dh_install
+#
+%:
+	dh "${@}"

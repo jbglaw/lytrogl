@@ -31,7 +31,7 @@ shader_setup()
 
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
-    shader = shader_init("lightfield.v.glsl","lightfield.f.glsl");
+    shader = shader_init("/usr/share/lytrogl/lightfield.v.glsl","/usr/share/lytrogl/lightfield.f.glsl");
     shader_use(shader);
 
     GLfloat vertices[] = {-1.f,-1.f, 1.f,-1.f, -1.f,1.f, 1.f,1.f};

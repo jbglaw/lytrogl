@@ -1,0 +1,11 @@
+Source: lytrogl
+Section: utils
+Priority: optional
+Maintainer: Jan-Benedict Glaw <jbglaw@lug-owl.de>
+Build-Depends: debhelper (>= 9.0.0), freeglut3-dev, libgtkglext1-dev, libfreeimage-dev, libgtk2.0-dev
+Standards-Version: 3.9.5
+
+Package: lytrogl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tool for "developing" lightroom captures
